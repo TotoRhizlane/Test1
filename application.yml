@@ -1,0 +1,12 @@
+starwarsapi:
+  baseurl: "https://swapi.py4e.com/api"
+spring:
+  datasource:
+    url: "jdbc:mysql://localhost:3306/mydb"
+    username: "root"
+    password: "password"
+jpa:
+  hibernate:
+    ddl-auto: "create"
+
+
